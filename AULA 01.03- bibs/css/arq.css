@@ -1,8 +1,28 @@
-.red {color: #ff0000;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
- } /* este e um estilo */
- .blue {color: #00559b;
-     font-size: 20px;
-     font-weight: bold;
-  } /* este e um estilo */
+
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    body {background-color: #FDC47D;
+        display: flex;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 800px;
+        margin-top: 77px;
+    }
+
+    .red {color: #ff0000;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     } /* este e um estilo */
+
+     .blue {color: #00559b;
+         font-size: 20px;
+         font-weight: bold;
+      } /* este e um estilo */
+    
